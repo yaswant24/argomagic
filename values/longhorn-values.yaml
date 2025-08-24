@@ -1,0 +1,10 @@
+# Customize Longhorn settings here
+longhornManager:
+  replicaCount: 3
+
+defaultSettings:
+  replicaSoftAntiAffinity: false
+  defaultDataPath: "/data/longhorn-storage"
+
+persistence:
+  defaultClassReplicaCount: 3
